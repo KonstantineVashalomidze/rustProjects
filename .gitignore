@@ -1,0 +1,3 @@
+# Ingore all target folders at any depth
+**/target/ 
+

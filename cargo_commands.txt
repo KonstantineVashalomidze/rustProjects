@@ -1,0 +1,11 @@
+cargo new projectName --vcs none - create new rust project with projectName as name, also creates git repository and .gitignore
+cargo build - build a project, complies .rs files into .exe in target/debug folder
+cargo run - builds and runs at the same time
+cargo check - skips actual building and checks if project is buildable
+cargo build --release - builds a project with optimizations for speed, but compilation takes more time. .exes will be created into target/release folder.
+cargo doc --open - to see documentations of dependenceis
+rustc hello.rs - to compile to .exe file
+
+
+
+standard library documentation link - https://doc.rust-lang.org/std/prelude/index.html
